@@ -1,0 +1,130 @@
+@charset "utf-8";
+*{
+	margin: 0; 
+	padding: 0;
+	
+	}
+	
+body{
+	font: 16px Georgia, serif;
+	}
+	
+#pagina{ 
+
+	
+}
+#pagina >.main{
+	border: 1px solid #999; 
+	padding: 1%;
+	margin-bottom: 1px;
+	margin-top: 0px;
+	color:  #fff;
+	}
+
+section > div{
+	padding: 20px;
+	}
+	
+header {
+		background:  #ca8239; 
+		text-align: center;
+		height:170px;
+	
+		}
+		
+header{ /*es un degradado que he generado en una web*/
+
+background: -moz-linear-gradient(45deg, #ce7216 15%, #a54c11 60%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #ce7216 15%,#a54c11 60%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #ce7216 15%,#a54c11 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce7216', endColorstr='#a54c11',GradientType=1 );
+	
+}
+	
+nav{
+	background:  #71bb71 ; 
+	text-align: center;
+	
+	}
+section{
+	background:  #58a53d ; /*meterle algo guapo*/
+	text-align: center;
+	}
+	
+footer{
+	background:  #bcbbbb ; 
+	text-align: center;
+	}
+	
+nav span{ 
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+		display: inline-block;
+		}
+
+.links{
+	
+	height:35px;
+background: #ce7216; /* Old browsers */
+background: -moz-linear-gradient(45deg, #ce7216 15%, #a54c11 60%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #ce7216 15%,#a54c11 60%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #ce7216 15%,#a54c11 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce7216', endColorstr='#a54c11',GradientType=1 );
+	overflow:hidden;
+	
+}
+
+.lista{
+	list-style:none;
+}
+
+.lista2{
+	float:right;
+	margin-right:40px;
+	
+}
+
+.sel{
+	padding:10px 20px;
+	display:block;
+	color: #fff;
+	text-decoration:none;
+}
+
+.sel:hover{
+	background:#d5b869;
+}
+
+.inputs{
+	
+	border: 2px solid #148627;
+    border-radius: 4px;
+	background: #b4f492;
+}
+.boton{
+        font-size:10px;
+        font-weight:bold;
+        color:white;
+        background:#1f9e34;
+		border-radius: 4px;
+        border:0px;
+        width:80px;
+        height:25px;
+       }
+	
+.selects{
+	
+	border: 2px solid #148627;
+    border-radius: 4px;
+	background: #b4f492;
+/*	Hasta aqui es igual que el de inputs	*/
+
+	
+	
+	
+}
+
+#ErrorMsgs{ 
+			color: #ed8e87; 
+			font-size: smaler;
+		}

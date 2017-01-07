@@ -1,0 +1,9 @@
+<!ELEMENT comentarios (comentario)*>
+<!ATTLIST comentarios last_id IDREF #REQUIRED>
+<!ELEMENT comentario (autor, fecha, actividad, valoracion, observaciones)>
+<!ATTLIST id ID #REQUIRED>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT valoracion (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>

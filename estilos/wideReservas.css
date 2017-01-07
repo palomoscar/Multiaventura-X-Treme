@@ -1,0 +1,35 @@
+body{
+	background:#bcbbbb ;
+	}
+
+nav{
+	float: right; 
+	width: 15%; 
+	height: 450px;
+	}
+	
+nav span{
+	margin: 0px 100px 0px 0px;
+	}
+	
+.navHorario{
+	
+	float: left; 
+	text-align: center;
+	width: 20%; 
+	height: 485px;
+	background: #14a00c;
+	color:white;
+	
+}
+	
+section{
+	float: left; 
+	width: 60%; 
+	height: 450px;
+	}
+	
+footer{
+	clear: both; 
+	display: block;
+	}
